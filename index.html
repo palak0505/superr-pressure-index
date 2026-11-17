@@ -13,14 +13,8 @@
   --f-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#0F1124; --panel:#171A33; --fg:#ECEBF6; --muted:#9DA0C0; --line:#2A2E4F;
-  --accent:#FF5AA8; --accent-soft:#3A1630; --navy:#9AAAFF; --navy-soft:#1F2650;
-  --good:#45C98F; --good-soft:#123528; --bad:#FF8A55; --bad-soft:#3A1E12; --grid:#252946; --tech:#1C1F3A; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#0F1124; --panel:#171A33; --fg:#ECEBF6; --muted:#9DA0C0; --line:#2A2E4F;
-  --accent:#FF5AA8; --accent-soft:#3A1630; --navy:#9AAAFF; --navy-soft:#1F2650;
-  --good:#45C98F; --good-soft:#123528; --bad:#FF8A55; --bad-soft:#3A1E12; --grid:#252946; --tech:#1C1F3A; color-scheme:dark}
+
+
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font:15px/1.6 var(--f-body);
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
